@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_month" label="Name of Month" language="en" table="x_234628_expense_t_expense_log">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_month</element>
+            <help/>
+            <hint/>
+            <label>Name of Month</label>
+            <language>en</language>
+            <name>x_234628_expense_t_expense_log</name>
+            <plural>Name of Months</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-17 13:19:22</sys_created_on>
+            <sys_id>83aa0da8db002300891258b3ca96190d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Name of Month</sys_name>
+            <sys_package display_value="Expense Tracker" source="x_234628_expense_t">1624ff84db002300891258b3ca9619dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Expense Tracker">1624ff84db002300891258b3ca9619dc</sys_scope>
+            <sys_update_name>sys_documentation_x_234628_expense_t_expense_log_u_month_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-20 17:03:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Budget" max_length="40" name="x_234628_expense_t_budget" sizeclass="2" type="collection">
+        <element attributes="omit_sys_original=true" label="Mileage" mandatory="true" max_length="20" name="u_mileage" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Mileage Status" max_length="40" name="u_mileage_status" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Office Supplies Status" max_length="40" name="u_office_status" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Office Supplies" mandatory="true" max_length="20" name="u_office_supplies" type="currency"/>
+        <element label="Other Expenses" mandatory="true" max_length="800" name="u_other" type="data_structure"/>
+        <element attributes="omit_sys_original=true" label="Other Expenses" mandatory="true" max_length="20" name="u_other_expenses" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Status" max_length="40" name="u_other_status" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Phone" mandatory="true" max_length="20" name="u_phone" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Status" max_length="40" name="u_phone_status" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Restaurant" mandatory="true" max_length="20" name="u_restaurant" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Restaurant Status" max_length="40" name="u_restaurant_status" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Utility" mandatory="true" max_length="20" name="u_utility" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Utility Status" max_length="40" name="u_utility_status" read_only="true" type="string"/>
+    </element>
+</database>

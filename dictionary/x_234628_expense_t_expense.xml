@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Expense" max_length="40" name="x_234628_expense_t_expense" sizeclass="110" type="collection">
+        <element label="Month Number" max_length="40" name="month_number" type="integer"/>
+        <element attributes="omit_sys_original=true" label="Amount" mandatory="true" max_length="20" name="u_amount" type="currency"/>
+        <element label="Date of Expense" mandatory="true" max_length="40" name="u_date_of_expense" type="glide_date"/>
+        <element label="Expense Log" max_length="32" name="u_expense_log" reference="x_234628_expense_t_expense_log" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expense Type" mandatory="true" max_length="40" name="u_expense_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Phone" sequence="0" value="phone"/>
+                <element inactive_on_update="false" label="Mileage" sequence="1" value="mileage"/>
+                <element inactive_on_update="false" label="Office Supplies" sequence="2" value="office supplies"/>
+                <element inactive_on_update="false" label="Restaurant" sequence="3" value="restaurant"/>
+                <element inactive_on_update="false" label="Utility" sequence="4" value="utility"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+            </choice>
+        </element>
+    </element>
+</database>

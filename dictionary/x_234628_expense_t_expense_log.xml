@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Expense Log" max_length="40" name="x_234628_expense_t_expense_log" sizeclass="4" type="collection">
+        <element label="Month Number" max_length="40" name="month_number" type="integer"/>
+        <element label="New Integer" max_length="40" name="u_integer_3" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Mileage Budget" max_length="40" name="u_mileage_budget" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Mileage Total" max_length="20" name="u_mileage_total" read_only="true" type="currency"/>
+        <element label="Name of Month" max_length="40" name="u_month" read_only="true" type="glide_date"/>
+        <element label="Month End Date" mandatory="true" max_length="40" name="u_month_end_date" type="glide_date"/>
+        <element label="Month Start Date" mandatory="true" max_length="40" name="u_month_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Month &amp; Year" max_length="40" name="u_month_year" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Office Supplies Budget" max_length="40" name="u_office_budget" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Office Supplies Total" max_length="20" name="u_office_total" read_only="true" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Expenses Budget" max_length="40" name="u_other_budget" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Other Expenses Total" max_length="20" name="u_other_total" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Phone" max_length="40" name="u_phone_bud" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Budget" max_length="40" name="u_phone_budget" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Phone Total" max_length="20" name="u_phone_total" read_only="true" type="currency"/>
+        <element label="Phone" max_length="40" name="u_ph_bud" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Restaurant" max_length="40" name="u_restaurant_budget" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Restaurant Total" max_length="20" name="u_restaurant_total" read_only="true" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Utility Budget" max_length="40" name="u_utility_budget" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Utility Total" max_length="20" name="u_utility_total" read_only="true" type="currency"/>
+        <element label="Year" max_length="40" name="u_year" read_only="true" type="integer"/>
+    </element>
+</database>

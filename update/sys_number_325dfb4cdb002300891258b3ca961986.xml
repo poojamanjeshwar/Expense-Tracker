@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_234628_expense_t_budget">x_234628_expense_t_budget</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>BUD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-16 13:03:05</sys_created_on>
+        <sys_id>325dfb4cdb002300891258b3ca961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BUD</sys_name>
+        <sys_package display_value="Expense Tracker" source="x_234628_expense_t">1624ff84db002300891258b3ca9619dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Tracker">1624ff84db002300891258b3ca9619dc</sys_scope>
+        <sys_update_name>sys_number_325dfb4cdb002300891258b3ca961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-16 13:03:05</sys_updated_on>
+    </sys_number>
+</record_update>
